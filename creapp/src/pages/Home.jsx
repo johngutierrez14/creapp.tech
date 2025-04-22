@@ -1,8 +1,8 @@
 import React from 'react'
 import Landing from './landing.jsx'
-import Navbar from '../components/navbar'
 import Footer from '../components/footer.jsx'
 import Servicios from './services.jsx'
+import About from './about.jsx'
 
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Landing />
       <Servicios />
+      <About />
       <Footer />
     </>
   )
