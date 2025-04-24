@@ -3,6 +3,7 @@ import Landing from './landing.jsx'
 import Footer from '../components/footer.jsx'
 import Servicios from './services.jsx'
 import About from './about.jsx'
+import Portfolio from './portfolio.jsx'
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Landing />
       <Servicios />
       <About />
+      <Portfolio />
       <Footer />
     </>
   )

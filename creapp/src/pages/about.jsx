@@ -1,7 +1,7 @@
 "use client";
 import * as motion from "motion/react-client";
 import React from "react";
-import Lottie from "lottie-react"; // <-- Importa Lottie correctamente
+import Lottie from "lottie-react"; 
 import teamAnimation from '../assets/team-animation.json';
 
 const values = [

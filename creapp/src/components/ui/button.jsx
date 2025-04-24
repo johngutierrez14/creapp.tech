@@ -5,8 +5,8 @@ export const Button = ({ children, className = "", ...props }) => {
   return (
     <motion.button
       {...props}
-      whileHover={{ scale: 1.1, backgroundColor: "rgba(30, 64, 175, 1)" }} // escala + color al hover
-      whileTap={{ scale: 0.95, backgroundColor: "rgba(59, 130, 246, 1)" }}  // escala - color al tap
+      whileHover={{ scale: 1.1, backgroundColor: "rgba(30, 64, 175, 1)" }} 
+      whileTap={{ scale: 0.95, backgroundColor: "rgba(59, 130, 246, 1)" }}  
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ type: "spring", stiffness: 300 }}
